@@ -61,4 +61,4 @@ ShootButton.TextScaled = true
 ShootButton.TextSize = 14.000
 ShootButton.TextWrapped = true
 
-return ShootGUI
+return ShootButton
