@@ -60,3 +60,5 @@ ShootButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 ShootButton.TextScaled = true
 ShootButton.TextSize = 14.000
 ShootButton.TextWrapped = true
+
+return ShootGUI
