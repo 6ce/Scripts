@@ -6,7 +6,7 @@ function Utility:GetRandomSubtitle()
     return Subtitles[math.random(1, #Subtitles)]
 end
 
-function Utility:GetSuffix(String)
+function Utility:FormatDay(String)
     String = tostring(String):gsub(" ", "")
     
     local Prefix = ""
@@ -17,7 +17,7 @@ function Utility:GetSuffix(String)
         Prefix = Oh == "1" and "st" or sec == "2" and "nd" or sec == "3" and "rd" or "th"
     end
 
-    return Prefix
+    return String .. Prefix
 end
 
 return Utility
