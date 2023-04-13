@@ -1,6 +1,6 @@
 local Utility = {}
 
-local Subtitles = {"Haiiiii ^_^", "Heyyyy >_<", "lukejdjd is a fat pig", "6cce is a literal MEME", "dont play eau kids its ass", "m1v the goat?"}
+local Subtitles = {"Haiiiii ^_^", "Heyyyy >_<", "lukejdjd is a fat pig", "6cce is a literal MEME", "dont play eau kids its ass", "leagues R Dead.", "Wrist Bleedin like a Crucifixion"}
 
 function Utility:GetRandomSubtitle()
     return Subtitles[math.random(1, #Subtitles)]
