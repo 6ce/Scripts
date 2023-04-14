@@ -10,11 +10,15 @@ function Utility:FormatDay(String)
     String = tostring(String):gsub(" ", "")
     
     local Prefix = ""
+    local Day = tonumber(String)
 
-    if #String == 2 then
-        local Magnettttttt = string.sub(String, #String, #String + 1)
-        
-        Prefix = Oh == "1" and "st" or sec == "2" and "nd" or sec == "3" and "rd" or "th"
+    if Day then
+        if Day >= 11 and Day <= 13 then
+            Prefix = "th"
+        else
+            local LastDigit = Day % 10
+            Prefix = LastDigit == 1 and "st" or LastDigit == 2 and "nd" or LastDigit == 3 and "rd" or "th"
+        end
     end
 
     return String .. Prefix
