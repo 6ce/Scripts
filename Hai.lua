@@ -1,6 +1,18 @@
 local Utility = {}
 
-local Subtitles = {"Haiiiii ^_^", "Heyyyy >_<", "lukejdjd is a fat pig", "6cce is a literal MEME", "dont play eau kids its ass", "leagues R Dead.", "Wrist Bleedin like a Crucifixion"}
+local Subtitles = {
+    "Haiiiii ^_^", 
+    "Heyyyy >_<", 
+    "lukejdjd is a fat pig", 
+    "6cce is a literal MEME", 
+    "dont play eau kids its ass", 
+    "leagues R Dead.", 
+    "Wrist Bleedin like a Crucifixion",
+    "Go dig MY GRAVE",
+    "I dont dial 911.",
+    "Olurgs is a fat glob who dont stop playin hoopz",
+    "all of the hoopz mods need to off themselves besides kyraizo and readn they cool"
+}
 
 function Utility:GetRandomSubtitle()
     return Subtitles[math.random(1, #Subtitles)]
