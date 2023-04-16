@@ -8,6 +8,8 @@ if game.ReplicatedStorage:FindFirstChild("ScreenWatch") == nil then
     return
 end
 
+getgenv().ScreenWatchExecuted = true
+
 local PVEyeObj = game:GetObjects("rbxassetid://552481467")[1]
 
 local WatchGUI = Instance.new("ScreenGui")
