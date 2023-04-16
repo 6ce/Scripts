@@ -14,7 +14,7 @@ local Subtitles = {
     "all of the hoopz mods need to off themselves besides kyraizo and readn they cool"
 }
 
-function Utility:GetRandomSubtitle()
+function Utility:GetRandomPhrase()
     return Subtitles[math.random(1, #Subtitles)]
 end
 
