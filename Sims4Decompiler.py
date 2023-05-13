@@ -1,4 +1,4 @@
-## just decompiles all the scripts in "simulation" in "C:\Program Files (x86)\Origin Games\The Sims 4\Data\Simulation\Gameplay"
+## just decompiles all the .pyc (python compiled) scripts in "simulation" in "C:\Program Files (x86)\Origin Games\The Sims 4\Data\Simulation\Gameplay"
 
 import requests as Requests, json as JSON, os as OS, time as Time
 from glob import iglob as IGlob
