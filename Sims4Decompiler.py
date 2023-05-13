@@ -54,8 +54,8 @@ for File in Files: ## iterate through all files
 					NewFile.write(Response) ## write the decompiled code as the files contents
 
 				print(f"Created script: {ScriptDirectory}") ## show we created a script at this directory
-	except Exception: ## why did this error
-		print(f"Error with: {ScriptDirectory} ({Exception})") ## log the error
+	except Exception as Error: ## Yay Error!!
+		print(f"Error with: {ScriptDirectory} ({Error})") ## log error
 		
 		pass ## still we move fr
 
