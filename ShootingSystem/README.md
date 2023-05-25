@@ -4,7 +4,7 @@ When you click, it'll spawn a basketball infront of you and set its velocity
 
 # Installation
 
-1. Open ROBLOX studio & create a new place, then set the avatar type to "R6"
+1. Open ROBLOX Studio & create a new place, then set the avatar type to "R6"
 1. Copy "Client.rbxm" into StarterPlayer -> StarterPlayerScripts
 2. Copy "Server.rbxm" into ServerScriptService
 4. Create a RemoteEvent named "Test" & put it in ReplicatedStorage
