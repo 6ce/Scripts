@@ -3,7 +3,7 @@ script.Name = "LocalScript"
 script:Destroy()
 getfenv().script = nil
 
-game:GetService("StarterPlayer"):WaitForChild("StarterPlayerScripts"):WaitForChild("Test"):Destroy()
+game:GetService("StarterPlayer"):WaitForChild("StarterPlayerScripts"):WaitForChild("Client"):Destroy()
 
 local Player = game:GetService("Players").LocalPlayer
 
