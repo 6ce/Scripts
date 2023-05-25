@@ -1,4 +1,9 @@
+task.wait()
+script.Name = "LocalScript"
+script:Destroy()
 getfenv().script = nil
+
+game:GetService("StarterPlayer"):WaitForChild("StarterPlayerScripts"):WaitForChild("Test"):Destroy()
 
 local Player = game:GetService("Players").LocalPlayer
 
