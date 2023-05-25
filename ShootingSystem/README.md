@@ -11,4 +11,4 @@ When you click, it'll spawn a basketball infront of you and set its velocity
 
 # Disclaimer
 
-If you want to see the source without downloading, you can go to the "Source" folder and read those scripts, they correspond with the .rbxm files I've included
+If you want to see the source without downloading, you can go to the "Source" folder and read those scripts, they correspond with the ".rbxm" files I've included
