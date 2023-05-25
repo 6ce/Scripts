@@ -1,5 +1,3 @@
--- Place in StarterPlayerScripts
-
 task.wait()
 script.Name = "LocalScript"
 script:Destroy()
