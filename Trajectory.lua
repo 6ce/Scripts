@@ -134,3 +134,5 @@ function Trajectory:Draw(path)
       drawBeamProjectile(self.Gravity, v0, x0, t)
    end
 end
+
+return Trajectory
