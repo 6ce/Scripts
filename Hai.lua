@@ -19,7 +19,7 @@ function Utility:FormatDay(String)
             Prefix = "th"
         else
             local LastDigit = Day % 10
-            Prefix = (LastDigit == 1 and "st") or (LastDigit == 2 and "nd") or( LastDigit == 3 and "rd") or "th"
+            Prefix = (LastDigit == 1 and "st") or (LastDigit == 2 and "nd") or (LastDigit == 3 and "rd") or "th"
         end
     end
 
